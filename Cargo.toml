@@ -25,6 +25,7 @@ exclude = [
 
 [profile.release]
 opt-level = 3
+codegen-units = 1
 # debug = 2
 
 [profile.dev]
@@ -103,6 +104,7 @@ freetype = { path = "deps/freetype" }
 futures = "0.3"
 futures-lite = "2.3"
 futures-util = "0.3"
+generic-array = "0.14.9"
 gethostname = "0.5"
 getrandom = "0.3.1"
 git2 = { version = "0.20", default-features = false, features = ["https"] }
@@ -181,7 +183,7 @@ raw-window-handle = "0.6"
 rayon = "1.10"
 rcgen = "0.12"
 regex = "1"
-reqwest = "0.12"
+reqwest = "0.13.1"
 resize = "0.5"
 rstest = "0.21"
 rusqlite = "0.32"
